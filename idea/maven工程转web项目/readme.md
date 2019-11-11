@@ -1,5 +1,5 @@
 ## maven工程转 web项目
-1. 进入maven项目的 **Project Settings。File -> Project Structure。**<br/>
+1. 进入maven项目的项目结构 **Project Settings。File -> Project Structure。**<br/>
 ![project structure](../images/ProjectStructure.png)
 2. 添加 web模块。**Project Structure -> Modules -> + -> web。** 若有多个模块要先选择（点击）需要转 web工程的模块，再点击 `+`。<br/>
 ![添加 web](../images/projectStructure/modulesAddWeb.png)
