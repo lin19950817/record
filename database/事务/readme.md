@@ -5,7 +5,7 @@
 1. <a href="#atomicity">原子性（atomicity）</a>
 2. <a href="#consistency">一致性（consistency）</a>
 3. <a href="#isolation">隔离性（isolation）</a>
-4. <a href="durability">持久性（durability）</a>
+4. <a href="#durability">持久性（durability）</a>
 
 ### <a name="atomicity" style="text-decoration:none">原子性</a>
 
@@ -27,7 +27,7 @@
 
 大多数数据库默认的事务隔离级别是Read committed，比如Sql Server , Oracle。Mysql的默认隔离级别是Repeatable read。
 
-1. <a href="#readUncommited">Read uncommitted</a>
+1. <a href="#readUncommitted">Read uncommitted</a>
 2. <a href="#readCommitted">Read committed</a>
 3. <a href="#repeatableRead">Repeatable read</a>
 4. <a href="#serializable">Serializable</a>
