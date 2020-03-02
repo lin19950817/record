@@ -18,3 +18,21 @@
    -- 回滚事务
    ROLLBACK;
    ```
+
+##  事务的隔离级别
+
+1. 查看当前的事务隔离级别 
+
+   ```sql
+   select @@TX_ISOLATION;
+   ```
+
+
+2. 更改当前的事务隔离级别。设置隔离级别必须在事务之前。
+
+   ```sql
+   -- 更改当前的事务隔离级别为 读未提交（read uncommitted）
+   set transaction isolation level read uncommitted;
+   ```
+
+    
