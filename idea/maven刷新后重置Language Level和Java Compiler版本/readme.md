@@ -49,7 +49,7 @@ Also note that at present the default source setting is 1.5 and the default targ
 
      2. 设置 `java Compiler`。
 
-        ![javaCompiler](../images/Settings/javaCompiler.png)
+        ![javaCompiler](../images/settings/javaCompiler.png)
 
      3. 进入 `Project Structure`。
 
