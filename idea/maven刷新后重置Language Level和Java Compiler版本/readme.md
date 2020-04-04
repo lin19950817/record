@@ -45,7 +45,7 @@ Also note that at present the default source setting is 1.5 and the default targ
 
   1. 进入 `settings`。
 
-     ![javaCompiler](..\images\setting.png)
+     ![javaCompiler](../images/setting.png)
 
      2. 设置 `java Compiler`。
 
@@ -53,8 +53,8 @@ Also note that at present the default source setting is 1.5 and the default targ
 
      3. 进入 `Project Structure`。
 
-        ![projectStructure](..\images\ProjectStructure.png)
+        ![projectStructure](../images/ProjectStructure.png)
 
      4. 设置 `Modeules`。
 
-        ![modulesLanguageLevel](..\images\projectStructure\modeulesLanguageLevel.png)
+        ![modulesLanguageLevel](../images/projectStructure/modeulesLanguageLevel.png)
