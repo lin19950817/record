@@ -29,8 +29,10 @@ public class FruitFactory {
     public static Fruit create(String fruitName) {
         switch (fruitName) {
             case APPLE:
+                // 复杂的构建逻辑
                 return new Apple();
             case PEAR:
+                // 复杂的构建逻辑
                 return new Pear();
             default:
                 throw new RuntimeException("不能存在水果：" + fruitName);

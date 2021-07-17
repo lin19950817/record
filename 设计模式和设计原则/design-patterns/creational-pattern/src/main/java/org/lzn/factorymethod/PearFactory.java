@@ -14,6 +14,7 @@ import org.lzn.Pear;
 public class PearFactory implements Factory {
     @Override
     public Fruit create() {
+        // 复杂的构建逻辑
         return new Pear();
     }
 }

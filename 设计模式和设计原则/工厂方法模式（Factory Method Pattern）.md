@@ -20,7 +20,7 @@
 
 例子，当我们需要一个苹果时，我们需要知道苹果的构造过程；需要一个梨时，我们需要知道梨的构造过程。如果存在一个水果工厂，而我们只需要告诉工厂我们需要什么样的水果，让工厂提供我们需要的水果就方便多了，我们无需知道水果怎么种，梨有需要怎么种。
 
-[水果工厂](design-patterns/creational-pattern/src/main/java/org/lzn/factory/method/FruitFactory.java)
+[水果工厂](design-patterns/creational-pattern/src/main/java/org/lzn/factorymethod/FruitFactory.java)
 
 ```java
 public class FruitFactory {
@@ -39,7 +39,7 @@ public class FruitFactory {
 }
 ```
 
-使用时，[调用方](design-patterns/creational-pattern/src/main/java/org/lzn/factory/method/SimpleFactoryPattern.java)：
+使用时，[调用方](design-patterns/creational-pattern/src/main/java/org/lzn/factorymethod/SimpleFactoryPattern.java)：
 
 ```java
 public class SimpleFactoryPattern {
@@ -56,7 +56,7 @@ public class SimpleFactoryPattern {
 
 此时构造过程发生变化，例如，添加肥料能使果实更香甜，此时只需要修改工厂。调用方代码无需修改。
 
-[水果](design-patterns/creational-pattern/src/main/java/org/lzn/factory/method/Fruit.java)
+[水果](design-patterns/creational-pattern/src/main/java/org/lzn/Fruit.java)
 
 ```java
 public interface Fruit {
@@ -64,7 +64,7 @@ public interface Fruit {
 }
 ```
 
-[苹果](design-patterns/creational-pattern/src/main/java/org/lzn/factory/method/Apple.java)
+[苹果](design-patterns/creational-pattern/src/main/java/org/lzn/Apple.java)
 
 ```java
 public class Apple implements Fruit {
@@ -78,7 +78,7 @@ public class Apple implements Fruit {
 }
 ```
 
-[梨](design-patterns/creational-pattern/src/main/java/org/lzn/factory/method/Pear.java)
+[梨](design-patterns/creational-pattern/src/main/java/org/lzn/Pear.java)
 
 ```java
 public class Pear implements Fruit {
@@ -98,7 +98,7 @@ public class Pear implements Fruit {
 
 为了解决这两个弊端，工厂方法模式规定每个产品都有一个专属工厂。例如，苹果有专属苹果的工厂，梨子有专属梨子的工厂。
 
-[工厂接口](design-patterns/creational-pattern/src/main/java/org/lzn/factory/method/Factory.java)，定义统一规范
+[工厂接口](design-patterns/creational-pattern/src/main/java/org/lzn/factorymethod/Factory.java)，定义统一规范
 
 ```java
 public interface Factory {
@@ -106,7 +106,7 @@ public interface Factory {
 }
 ```
 
-[苹果工厂](design-patterns/creational-pattern/src/main/java/org/lzn/factory/method/AppleFactory.java)
+[苹果工厂](design-patterns/creational-pattern/src/main/java/org/lzn/factorymethod/AppleFactory.java)
 
 ```java
 public class AppleFactory implements Factory {
@@ -117,7 +117,7 @@ public class AppleFactory implements Factory {
 }
 ```
 
-[梨子工厂](design-patterns/creational-pattern/src/main/java/org/lzn/factory/method/PearFactory.java)
+[梨子工厂](design-patterns/creational-pattern/src/main/java/org/lzn/factorymethod/PearFactory.java)
 
 ```java
 public class PearFactory implements Factory {
@@ -128,7 +128,7 @@ public class PearFactory implements Factory {
 }
 ```
 
-[使用时](design-patterns/creational-pattern/src/main/java/org/lzn/factory/method/FactoryMethodPattern.java)
+[使用时](design-patterns/creational-pattern/src/main/java/org/lzn/factorymethod/FactoryMethodPattern.java)
 
 ```java
 public class FactoryMethodPattern {
