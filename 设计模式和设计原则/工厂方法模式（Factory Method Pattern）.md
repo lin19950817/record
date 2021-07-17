@@ -29,8 +29,10 @@ public class FruitFactory {
     public static Fruit create(String fruitName) {
         switch (fruitName) {
             case APPLE:
+                // 复杂的构建逻辑
                 return new Apple();
             case PEAR:
+                // 复杂的构建逻辑
                 return new Pear();
             default:
                 throw new RuntimeException("不能存在水果：" + fruitName);
@@ -68,9 +70,6 @@ public interface Fruit {
 
 ```java
 public class Apple implements Fruit {
-    public Apple() {
-        // 复杂的构建过程
-    }
     @Override
     public void eat() {
         System.out.println("吃苹果");
@@ -82,9 +81,6 @@ public class Apple implements Fruit {
 
 ```java
 public class Pear implements Fruit {
-    public Pear() {
-        // 复杂的构建过程
-    }
     @Override
     public void eat() {
         System.out.println("吃梨");
@@ -112,6 +108,7 @@ public interface Factory {
 public class AppleFactory implements Factory {
     @Override
     public Fruit create() {
+        // 复杂的构建逻辑
         return new Apple();
     }
 }
@@ -123,6 +120,7 @@ public class AppleFactory implements Factory {
 public class PearFactory implements Factory {
     @Override
     public Fruit create() {
+        // 复杂的构建逻辑
         return new Pear();
     }
 }
