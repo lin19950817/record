@@ -7,7 +7,7 @@
 ### 创建型模式（Creational Pattern）
 
 1. [工厂方法模式（Factory Method Pattern）](工厂方法模式（Factory%20Method%20Pattern）.md)
-   * [简单工厂模式（Simple Factory Pattern）](工厂方法模式（Factory Method Pattern）.md#simpleFactory)
+   * [简单工厂模式（Simple Factory Pattern）](工厂方法模式（Factory%20Method%20Pattern）.md#simpleFactory)
 2. 抽象工厂模式（Abstract Factory Pattern）
 3. 建造者模式（Builder Pattern）
 4. 原型模式（Prototype Pattern）
