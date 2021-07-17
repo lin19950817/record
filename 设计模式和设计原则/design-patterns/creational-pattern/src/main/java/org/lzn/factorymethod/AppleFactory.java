@@ -1,4 +1,7 @@
-package org.lzn.factory.method;
+package org.lzn.factorymethod;
+
+import org.lzn.Apple;
+import org.lzn.Fruit;
 
 /**
  * <p>

@@ -1,4 +1,4 @@
-package org.lzn.factory.method;
+package org.lzn;
 
 /**
  * <p>
