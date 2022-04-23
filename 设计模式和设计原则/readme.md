@@ -9,7 +9,7 @@
 1. [工厂方法模式（Factory Method Pattern）](工厂方法模式（Factory%20Method%20Pattern）.md)
    * [简单工厂模式（Simple Factory Pattern）](工厂方法模式（Factory%20Method%20Pattern）.md#simpleFactory)
 2. [抽象工厂模式（Abstract Factory Pattern）](抽象工厂模式（Abstract%20Factory%20Pattern）.md)
-3. 建造者模式（Builder Pattern）
+3. [建造者模式（Builder Pattern）](建造者模式（Builder%20Pattern）.md)
 4. 原型模式（Prototype Pattern）
 5. 单例模式（Singleton Pattern）
 6. 多例模式（Multition Pattern）
